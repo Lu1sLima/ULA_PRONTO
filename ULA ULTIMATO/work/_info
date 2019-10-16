@@ -1,0 +1,177 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/19111170/Desktop/ula-ultimato/ULA ULTIMATO
+T_opt
+!s110 1571233881
+Vh9eQ=G8A]bI^_kcE50c542
+Z1 04 2 2 work tb a1 1
+=1-782bcbc08770-5da72059-d1e63-136c
+Z2 o-quiet -auto_acc_if_foreign -work work +acc=lprn
+n@_opt
+Z3 OL;O;10.3c;59
+R0
+T_opt1
+!s110 1571265721
+Vc4aY:IcnC:O_2M@HP5GOS0
+R1
+=1-70f395c6c1ea-5da79cb9-483ff-1b73
+R2
+n@_opt1
+R3
+Ealu
+Z4 w1571264611
+Z5 DPx4 work 5 p_ula 0 22 Dc_ZcX6CE]NEC;0MHE7CO0
+Z6 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z7 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+Z8 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z9 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z10 d/home/19111170/Desktop/ula/ula-ultimato/ULA ULTIMATO
+Z11 8ula.vhd
+Z12 Fula.vhd
+l0
+L6
+V_mb:BUI;k]^I@cV:UON0;3
+!s100 J^8Z<L3o3M^kJ72Xcc;7<2
+Z13 OL;C;10.3c;59
+32
+Z14 !s110 1571265719
+!i10b 1
+Z15 !s108 1571265719.931105
+Z16 !s90 -reportprogress|300|-work|work|ula.vhd|
+Z17 !s107 ula.vhd|
+!i113 0
+Z18 o-work work
+Z19 tExplicit 1
+Aalu
+Z20 DEx4 work 8 soma_sub 0 22 C:<<H=Ab8MHboNaS3VDgT2
+R5
+R6
+R7
+R8
+R9
+Z21 DEx4 work 3 alu 0 22 _mb:BUI;k]^I@cV:UON0;3
+l20
+L14
+VT<9Oe1[Uec:BUc?hI2O6W0
+!s100 J2a>C4?^b@D5kJj8Tad8<3
+R13
+32
+R14
+!i10b 1
+R15
+R16
+R17
+!i113 0
+R18
+R19
+Pp_ula
+R8
+R9
+w1571264595
+R10
+8ula_pack.vhd
+Fula_pack.vhd
+l0
+L3
+VDc_ZcX6CE]NEC;0MHE7CO0
+!s100 ScN?KhVUI4<ha;hP;k;@b0
+R13
+32
+R14
+!i10b 1
+!s108 1571265719.819110
+!s90 -reportprogress|300|-work|work|ula_pack.vhd|
+!s107 ula_pack.vhd|
+!i113 0
+R18
+R19
+Esoma_sub
+Z22 w1571263050
+R8
+R9
+R10
+Z23 8soma_sub.vhd
+Z24 Fsoma_sub.vhd
+l0
+L4
+VC:<<H=Ab8MHboNaS3VDgT2
+!s100 >@aehOzYT2WcUS<OI=UnE0
+R13
+32
+R14
+!i10b 1
+Z25 !s108 1571265719.879599
+Z26 !s90 -reportprogress|300|-work|work|soma_sub.vhd|
+Z27 !s107 soma_sub.vhd|
+!i113 0
+R18
+R19
+Aa1
+R8
+R9
+R20
+l17
+L14
+VT13i1nP?MLg>5?U<T8k[42
+!s100 II4h4a^:^HnmYJ0=ZZofH0
+R13
+32
+R14
+!i10b 1
+R25
+R26
+R27
+!i113 0
+R18
+R19
+Etb
+Z28 w1571265715
+R5
+R8
+R9
+R10
+Z29 8tb_ula.vhd
+Z30 Ftb_ula.vhd
+l0
+L5
+VWiAmPcF[zEMRIn6NG2Td^2
+!s100 DhjcMX5Y^Vc0<e=;R`XU@2
+R13
+32
+R14
+!i10b 1
+Z31 !s108 1571265719.989719
+Z32 !s90 -reportprogress|300|-work|work|tb_ula.vhd|
+Z33 !s107 tb_ula.vhd|
+!i113 0
+R18
+R19
+Aa1
+R6
+R7
+R21
+R5
+R8
+R9
+DEx4 work 2 tb 0 22 WiAmPcF[zEMRIn6NG2Td^2
+l33
+L8
+VCBmjDO2YgFhb7bJ`dJS==2
+!s100 iW0J^LglSBj?R0Qb;A?gM0
+R13
+32
+!s110 1571265720
+!i10b 1
+R31
+R32
+R33
+!i113 0
+R18
+R19
