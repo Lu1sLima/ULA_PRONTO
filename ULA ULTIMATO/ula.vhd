@@ -4,6 +4,7 @@ use IEEE.std_logic_unsigned.all;
 use work.p_ula.all;
 
 entity alu is
+
  port( op1, op2 : in std_logic_vector(11 downto 0);
  opmode : in op_alu;
  z, cout, ov: out std_logic;
@@ -25,7 +26,7 @@ outalu <= outalu_int; -- criei sinal interno pq nao posso fazer comparação com
  --- instancia a soma
  --- uAND (op1 and op2)
  --- uOR (op1 or op2)
- --- uXOR (op1 xnor op2)
+ --- uXOR (op1 xnor op2)	
  --- uSLL
  --- uSRL
  --- uADD (op1 + op2)
@@ -51,7 +52,7 @@ when opmode=uSUB2 else op1;
  op1 and op2 when opmode=uAND else
  op1 or op2 when opmode=uOR else
  op1 xnor op2 when opmode=uXNOR else
- to_StdLogicVector( to_bitvector(op1) sll CONV_INTEGER(op2(3 downto 0)) ) when opmode=uSlL else
+ to_StdLogicVector( to_bitvector(op1) sll CONV_INTEGER(op2(3 downto 0)) ) when opmode=uSLL else
  to_StdLogicVector( to_bitvector(op1) srl CONV_INTEGER(op2(3 downto 0)) ) when opmode=uSRL else  
  soma; --- uADD, uSUB, uSUB2, uOP1, uNEG
 end alu;

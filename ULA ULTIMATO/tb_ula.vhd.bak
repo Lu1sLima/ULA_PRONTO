@@ -64,8 +64,8 @@ architecture a1 of tb is
 --op2 <= x"34D", x"46C" after 20ns;
 --opmode <= uNEG;
 
-op1 <= x"FFF", x"BBB" after 20ns;
-op2 <= x"FFF", x"46C" after 20ns;
+op1 <= x"BBA", x"BBB" after 20ns;
+op2 <= x"DDC", x"46C" after 20ns;
 opmode <= uNEG;
 
 --op1 <= x"C34", x"F51" after 20ns;
